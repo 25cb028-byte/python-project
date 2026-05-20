@@ -1,0 +1,29 @@
+# Electric Vehicle Charging Station Finder using if-elif-else
+
+print("Electric Vehicle Charging Station Finder")
+
+city = input("Enter your city: ")
+
+print("\nAvailable EV Charging Stations:\n")
+
+if city == "chennai":
+    print("Name: EV Power Hub")
+    print("Distance: 2.5 km\n")
+
+    print("Name: Charge Zone")
+    print("Distance: 4.5 km")
+
+elif city == "coimbatore":
+    print("Name: Green Charge Station")
+    print("Distance: 1.2 km")
+
+elif city == "madurai":
+    print("Name: Fast EV Point")
+    print("Distance: 3.0 km")
+
+elif city == "trichy":
+    print("Name: Eco Charge")
+    print("Distance: 2.0 km")
+
+else:
+    print("No charging stations found in your city.")
